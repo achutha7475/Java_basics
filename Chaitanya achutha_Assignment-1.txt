@@ -1,0 +1,83 @@
+Assignment 1
+
+Q1. Length and breadth of a rectangle are 5 and 7 respectively. Write a program to calculate the area and perimeter of the rectangle.
+
+package Second;
+
+public class Third {
+
+	public static void main(String[] args) {
+		int l=5,b=7;
+		System.out.println(" Area of given rectangle is "+(l*b)+".");
+		System.out.println(" Perimeter of given rectangle is "+(2*(l+b))+".");
+	}
+
+}
+
+Q2. Write a program to add 8 to the number 2345 and then divide it by 3. Now, the modulus of the quotient is taken with 5 and then multiply the resultant value by 5. Display the final result.
+
+package Second;
+
+public class Fourth {
+
+	public static void main(String[] args) {
+		int a=8,b=2345,c,d,e,f;
+		c=a+b;
+		d=c/3;
+		e=d%5;
+		f=e*5;
+	System.out.println(" Addition of number 8 to the 2345 : "+(c)+".");
+	System.out.println(" Resultant after dividing the c with number 3 is : "+(d)+".");
+	System.out.println(" Modulus of d after dividing it with 5 is : "+(e)+".");
+	System.out.println(" Resultant after multiplying with 5 is : "+(f)+".");
+
+	}
+
+}
+
+Q3. Write a program to check if the two numbers 23 and 45 are equal.
+
+package Second;
+
+public class Fifth {
+
+	public static void main(String[] args) {
+		int a=23,b=45;
+		System.out.println(" The given two numbers 23 and 45 are equal. "+(a==b));
+
+	}
+
+}
+
+Q4. Write a program to calculate the perimeter of a triangle having sides of length 2,3 and 5 units.
+
+package Second;
+
+public class Sixth {
+
+	public static void main(String[] args) {
+		int a=2,b=3,c=5;
+		System.out.println(" Perimeter of given triangle's sides is "+(a+b+c)+".");
+
+	}
+
+}
+
+Q5. If the marks of Robert in three subjects are 78,45 and 62 respectively (each out of 100 ), write a program to calculate his total marks and percentage marks.
+
+package Second;
+
+public class Seventh {
+
+	public static void main(String[] args) {
+		int a=78,b=45,c=62;
+		float f,r;
+		r=a+b+c;
+		f=r/300*100;
+		System.out.println(" Total marks gained by Robert in three subjects is "+(r)+" out of 300.");
+		System.out.println(" Percentage scored by Robert is "+(f)+".");
+		
+
+	}
+
+}
